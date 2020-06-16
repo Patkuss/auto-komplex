@@ -1,0 +1,25 @@
+/* Fonts */
+
+@font-face {
+    font-family: quicksand;
+    src: url(.../fonts/Quicksand-Bold.ttf);
+    font-weight: bold;
+}
+@font-face {
+    font-family: quicksand;
+    src: url(.../fonts/Quicksand-Regular.ttf);
+}
+
+/* Colors */
+
+$primary-color1: #1d1d1b;
+$primary-color2: #ffdc00;
+$white: #ffffff;
+$black: #000000;
+
+
+
+/* Transition */
+
+$transition: all 0.5s;
+
