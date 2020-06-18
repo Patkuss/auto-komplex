@@ -1,5 +1,9 @@
 @import "variables";
+@import "general";
 
 @import "components/banner";
 @import "components/header";
 @import "components/footer";
+
+@import "sections/numbersArea";
+@import "sections/cardsArea";

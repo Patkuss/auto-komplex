@@ -1,38 +1,73 @@
-.carousel-caption {
-  z-index: 75!important;
-  background-color: black;
-  max-width: 300px;
-  position: absolute;
-  top:50%;
-  left:50%;
-}
-
-.carousel-indicators {
-  z-index: 75;
-  li {
-    cursor: pointer;
-    background-color: grey;
-  }
-   .active {
-      background-color: black;
-  }
-}
-
-
 .carousel-item {
   img{
-    margin-left: 103px;
+    margin-left: auto;
   }
 }
 
-.filled-background::after,
-.filled-background::before {
+.carousel::after,
+.carousel::before {
   position: absolute;
   content:'';
   width: 100%;
   height: 500px;
   background: $primary-color2;
   top: 0;
-  clip-path: polygon(41.56% 0, 41.56% 88%, 100% 95%, 100% 100%, 0 100%, 0 0);
+  clip-path: polygon(41.56% 0, 28% 88%, 100% 95%, 100% 100%, 0 100%, 0 0);
   z-index: 50;
+}
+
+svg.intro {
+  background: none;
+  max-width: 500px;
+  z-index: 80;
+  position: absolute;
+  top: 15%;
+  left: 1%;
+  text-align: center;
+  margin-right: 20px;
+
+  .text {
+    display: none;
+  }
+  &.go {
+    .text {
+      font-family: quicksand, sans-serif;
+      font-size: 35px;
+      text-transform: uppercase;
+      display: block;
+      font-weight: bold;
+    }
+    .text-stroke {
+      fill: none;
+      stroke: white;
+      stroke-width: 5.5px;
+      stroke-dashoffset: -900;
+      stroke-dasharray: 900;
+      stroke-linecap: butt;
+      stroke-linejoin: round;
+      animation: dash 2.5s ease-in-out forwards;
+    }
+    .text-stroke:nth-child(2) {
+      animation-delay: .3s;
+    }
+    .text-stroke:nth-child(3) {
+      animation-delay: .9s;
+    }
+    .text-stroke-2 {
+      stroke: black;
+      animation-delay: 1.2s;
+    }
+    .text-stroke:nth-child(5) {
+      animation-delay: 1.5s;
+    }
+    .text-stroke:nth-child(6) {
+      animation-delay: 1.8s;
+    }
+  }
+}
+
+@keyframes dash {
+  100% {
+    stroke-dashoffset: 0;
+  }
 }

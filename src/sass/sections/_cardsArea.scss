@@ -1,0 +1,45 @@
+.card-container {
+  max-width: 1500px;
+}
+
+.card {
+  border: none;
+  background-color: $bg-color;
+  max-height: 700px;
+  .card-img-top {
+    max-width: 800px;
+    height: auto;
+    margin: 0 40px;
+    transition: all 1s;
+  }
+  .right-card-img{
+    align-self: end;
+  }
+  .card-body {
+    position: relative;
+    background-color: $bg-color;
+    bottom: 30%;
+    left: 40%;
+    width: 700px;
+    height: 290px;
+    border-top: solid 2px $primary-color2;
+    .wrapper {
+      padding: 60px;
+    }
+  }
+  .right-card-body{
+    bottom: 30%;
+    left: 11%;
+  }
+}
+
+.left-card:hover .left-card-img {
+  -webkit-box-shadow: -17px 18px 0px 18px rgba(255,220,0,1);
+  -moz-box-shadow: -17px 18px 0px 18px rgba(255,220,0,1);
+  box-shadow: -17px 18px 0px 18px rgba(255,220,0,1);
+}
+.right-card:hover .right-card-img {
+  -webkit-box-shadow: 18px 18px 0px 18px rgba(255,220,0,1);
+  -moz-box-shadow: 18px 18px 0px 18px rgba(255,220,0,1);
+  box-shadow: 18px 18px 0px 18px rgba(255,220,0,1);
+}
