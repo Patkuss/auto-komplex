@@ -1,6 +1,6 @@
 .footer-area {
   background-color: black;
-  padding: 50px 0 50px 0;
+  padding: 50px 0 20px 0;
   border-top: solid 2px $primary-color2;
   .single-footer-widget {
     color: white;
@@ -121,5 +121,8 @@
     .icon-button:hover .fa-facebook-f{
       color: white;
     }
+  }
+  .copy-text {
+    padding-top: 30px;
   }
 }

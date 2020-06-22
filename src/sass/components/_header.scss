@@ -51,9 +51,16 @@ nav {
       .dropdown-menu{
         min-width: 20px;
         border: none;
+        padding-top: 20px;
+        top: 70px;
         .nav-link {
           padding: 0 25px;
+          line-height: 45px;
+          height: 40px;
         }
+      }
+      .dropdown-toggle::after {
+        content: none;
       }
     }
   }
