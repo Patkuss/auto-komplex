@@ -71,3 +71,14 @@ svg.intro {
     stroke-dashoffset: 0;
   }
 }
+
+.slide-right .intro {
+  animation: 0.1s slide-right 1.83s forwards;
+    transform:translateX(-100%);
+}
+
+@keyframes slide-right {
+  to {
+    transform:translateX(0);
+  }
+}
