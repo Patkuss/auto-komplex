@@ -1,0 +1,14 @@
+.primary-btn {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 14px 30px;
+  color: white;
+  background: $primary-color1;
+  letter-spacing: 1px;
+
+  &.second-bg {
+    background: $primary-color1;
+  }
+}

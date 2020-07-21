@@ -3,7 +3,7 @@
   font-weight: bold;
   position: fixed;
   left: 0;
-  z-index: 99;
+  z-index: 98;
   transition: background 0.4s, all 0.3s linear;
   @media (max-width: 991px) {
       margin-top: 0;
@@ -14,32 +14,30 @@
   display: none
 }
 
+.header_area:after {
+  content: "";
+  background: white;
+  height: 116px;
+  width: 150px;
+  transform: skewx(-42deg);
+  position: absolute;
+  right: -45px;
+  top: 0;
+  z-index: 1;
+}
+
 nav {
   background-color: white;
   transition: $transition;
+  z-index: 99;
   img {
-    max-height: 60px;
+    max-height: 90px;
     width: auto;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
   }
   .navbar-collapse{
     .nav {
-      .dropdown {
-        width: 70px;
-      }
-      .dropdown::before {
-        content : "";
-        position: absolute;
-        left: 0;
-        bottom: 20px;
-        height: 50%;
-        width : 1px;
-        border-left: 1px solid black;
-      }
-      .dropdown:hover .dropdown-menu {
-        display: block;
-      }
       .nav-item {
         .nav-link {
           font-size: 18px;
@@ -47,20 +45,6 @@ nav {
           padding: 0 32px;
           line-height: 90px;
         }
-      }
-      .dropdown-menu{
-        min-width: 20px;
-        border: none;
-        padding-top: 20px;
-        top: 70px;
-        .nav-link {
-          padding: 0 25px;
-          line-height: 45px;
-          height: 40px;
-        }
-      }
-      .dropdown-toggle::after {
-        content: none;
       }
     }
   }
