@@ -17,8 +17,8 @@ mail($to, $subject, $message, $headers);
 	<head>
     <meta charset="UTF-8"/>
     <title>AUTO KOMPLEX Warsztat Samochodowy</title>
-    <meta name="description" content="Potężne powierzchnie magazynowe oraz w pełni zautomatyzowana logistyka na terenie Polski i Europy z wykorzystaniem współpracujących firm kurierskich.">
-    <meta name="keywords" content="">
+    <meta name="description" content="Warsztat samochodowy we Wrocławiu (Ołtaszyn/Krzyki). Blacharstwo, lakiernictwo i mechanika pojazdowa. Likwidacja szkód komunikacyjnych OC i AC. Auto holowanie.">
+    <meta name="keywords" content="watsztat samochodowy, blacharstwo, lakiernictwo, mechanika, ołtaszyn, wrocław, holowanie, likwidacja szkody, oc i ac, wymiana oleju, rozrząd, cheack engine, naprawa pojazdów, mechanik">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
     <link rel="icon" type="images/png" href="images/icon.png">
@@ -29,7 +29,7 @@ mail($to, $subject, $message, $headers);
   <body>
     <header class="header_area whiteMenu" id="navbar">
       <nav class="navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="3lp logo"></a>
+        <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="auto komplex logo"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="icon-bar"></span>
@@ -94,14 +94,14 @@ mail($to, $subject, $message, $headers);
       <div class="container">
         <div class="row">
           <div class="col-lg-4 col-md-4">
-            <div class="contact__address">
+            <div class="contactAddress">
               <h4>Contact info</h4>
               <ul>
                 <li>
                   <div class="icon">
                     <i class="fa fa-phone"></i>
                   </div>
-                  <p><span><a href="mailto:autokomplexsos@gmail.com">autokomplexsos@gmail.com</a></span><span><a href="+48503519572">+48 503 519 572</a></span></p>
+                  <p><span><a href="mailto:autokomplexsos@gmail.com">autokomplexsos@gmail.com</a></span><span><a href="tel:+48-503-519-572">+48 503 519 572</a></span></p>
                 </li>
                 <li>
                   <div class="icon">
@@ -119,7 +119,7 @@ mail($to, $subject, $message, $headers);
             </div>
           </div>
           <div class="col-lg-8 col-md-8">
-            <div class="contact__form">
+            <div class="contactForm">
               <h4>Leave a message</h4>
               <form method="post" name="contactform" action="mail.php">
                 <div class="row">
@@ -167,7 +167,7 @@ mail($to, $subject, $message, $headers);
             <div class="single-footer-widget">
               <h6>KONTAKT</h6>
               <ul>
-                <li><span><i class="fas fa-phone"></i></span><a href="+48503519572">+48 503 519 572</a></li>
+                <li><span><i class="fas fa-phone"></i></span><a href="tel:+48-503-519-572">+48 503 519 572</a></li>
                 <li><span><i class="far fa-envelope"></i></span><a href="mailto:autokomplexsos@gmail.com">autokomplexsos@gmail.com</a></li>
               </ul>
             </div>

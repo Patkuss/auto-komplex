@@ -2,7 +2,7 @@
   margin-top: 100px;
   margin-bottom: 130px;
 }
-.contact__address {
+.contactAddress {
   h4 {
     color: $primary-color1;
     font-weight: 800;
@@ -11,6 +11,7 @@
     margin-bottom: 30px;
   }
   ul {
+    padding-left: 15px;
     li {
       overflow: hidden;
       list-style: none;
@@ -41,7 +42,7 @@
     }
   }
 }
-.contact__form {
+.contactForm {
   h4 {
     color: $primary-color1;
     font-weight: 800;
