@@ -2,6 +2,9 @@
   background-color: black;
   padding: 50px 0 20px 0;
   border-top: solid 2px $primary-color2;
+  @media (max-width: 767px) {
+    padding-top: 10px;
+  }
   .single-footer-widget {
     color: white;
     h6 {
@@ -37,6 +40,14 @@
       max-height: 120px;
       width: auto;
       margin-top: 25px;
+      padding-left: 30px;
+      @media (max-width: 525px) {
+        padding-left: 25vw;
+        margin-top: 10px;
+      }
+    }
+    @media (max-width: 767px) {
+      margin-top: 30px;
     }
   }
   .footer-address {

@@ -5,10 +5,6 @@
   left: 0;
   z-index: 98;
   transition: background 0.4s, all 0.3s linear;
-  @media (max-width: 991px) {
-      margin-top: 0;
-      background-color: white;
-  }
 }
 .hidedMenu {
   display: none
@@ -45,7 +41,31 @@ nav {
           padding: 0 32px;
           line-height: 90px;
         }
+        .acive-nav-link {
+          color: $primary-color1;
+        }
       }
     }
+  }
+}
+
+@media (max-width: 991px) {
+  .header_area{
+    margin-top: 0;
+    background-color: white;
+    width: 100%;
+    .nav-item {
+      border-top: solid 1px $primary-color1;
+      text-align: center;
+    }
+    .nav-item:first-child {
+      border-top: none;
+    }
+  }
+  .header_area:after {
+    content: "";
+    background: none;
+    height: 0;
+    width: 0;
   }
 }

@@ -48,7 +48,7 @@ mail($to, $subject, $message, $headers);
               <a class="nav-link" href="gallery.html">Galeria</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="contact.html">Kontakt</a>
+              <a class="nav-link acive-nav-link" href="contact.html">Kontakt</a>
             </li>
           </ul>
         </div>
@@ -147,12 +147,12 @@ mail($to, $subject, $message, $headers);
     <footer class="footer-area">
       <div class="container">
         <div class="row">
-          <div class="col-3">
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 order-lg-1">
             <div class="single-footer-widget">
               <img class="footer-logo" src="images/logo-white.png" alt="auto-komplex logo">
             </div>
           </div>
-          <div class="col-2">
+          <div class="col-12 col-sm-6 col-md-4 col-lg-2 order-lg-4">
             <div class="single-footer-widget">
               <h6>NAWIGACJA</h6>
               <ul>
@@ -163,16 +163,7 @@ mail($to, $subject, $message, $headers);
               </ul>
             </div>
           </div>
-          <div class="col-4">
-            <div class="single-footer-widget">
-              <h6>KONTAKT</h6>
-              <ul>
-                <li><span><i class="fas fa-phone"></i></span><a href="tel:+48-503-519-572">+48 503 519 572</a></li>
-                <li><span><i class="far fa-envelope"></i></span><a href="mailto:autokomplexsos@gmail.com">autokomplexsos@gmail.com</a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-3">
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 order-lg-12">
             <div class="single-footer-widget footer-address">
               <h6>Adres</h6>
               <p><span>AUTO KOMPLEX</span></p>
@@ -180,6 +171,15 @@ mail($to, $subject, $message, $headers);
               <p>52-214 Wrocław</p>
               <p>woj. dolnośląskie</p>
               <p>Polska</p>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-12 col-lg-4 order-lg-8">
+            <div class="single-footer-widget">
+              <h6>KONTAKT</h6>
+              <ul>
+                <li><span><i class="fas fa-phone"></i></span><a href="tel:+48-503-519-572">+48 503 519 572</a></li>
+                <li><span><i class="far fa-envelope"></i></span><a href="mailto:autokomplexsos@gmail.com">autokomplexsos@gmail.com</a></li>
+              </ul>
             </div>
           </div>
         </div>

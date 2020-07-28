@@ -16,13 +16,13 @@
     }
     .right-card-img{
       position: relative;
-      left: 38%;
+      right: -25vw;
     }
     .card-body {
       position: relative;
       background-color: white;
       bottom: 30%;
-      left: 40%;
+      left: 28vw;
       width: 700px;
       height: 290px;
       border-top: solid 2px rgba(225,0,0,1);
@@ -44,5 +44,56 @@
     -webkit-box-shadow: 18px 18px 0px 18px rgba(255, 237, 0,1);
     -moz-box-shadow: 18px 18px 0px 18px rgba(255, 237, 0,1);
     box-shadow: 18px 18px 0px 18px rgba(255, 237, 0,1);
+  }
+}
+@media (max-width: 1160px) {
+  .cards-area {
+    .card {
+      min-height: 780px;
+      .right-card-img{
+        position: static;
+      }
+      .card-img-top {
+        width: 85vw;
+        margin: 40px auto 0 auto;
+      }
+      .card-body {
+        position: static;
+        background-color: white;
+        width: 85vw;
+        height: auto;
+        border-top: solid 2px rgba(225,0,0,1);
+        margin: 0 auto 30px auto;
+        .wrapper {
+          padding: 20px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 715px) {
+  .cards-area {
+    .card {
+      min-height: 300px;
+      .right-card-img{
+        position: static;
+      }
+      .card-img-top {
+        width: 85vw;
+        margin: 40px auto 0 auto;
+      }
+      .card-body {
+        position: static;
+        background-color: white;
+        width: 85vw;
+        height: auto;
+        border-top: solid 2px rgba(225,0,0,1);
+        margin: 0 auto 30px auto;
+        .wrapper {
+          padding: 20px;
+        }
+      }
+    }
   }
 }
