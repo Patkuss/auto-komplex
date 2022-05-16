@@ -7,6 +7,7 @@ $subject = 'Nowy e-mail od ' . $name . ' (' . $email . ')';
 $message = $_POST['message'];
 $headers = 'From: ' . $name . ' (' . $email . ')';
 $headers .= 'Content-Type: text/html; charset=utf-8';
+$_SERVER['HTTPS']='on';
 
 mail($to, $subject, $message, $headers);
 
@@ -15,12 +16,12 @@ mail($to, $subject, $message, $headers);
 <!DOCTYPE html>
 <html lang="pl">
 	<head>
-    <meta charset="UTF-8"/>
+    <meta charset="UTF-8">
     <title>AUTO KOMPLEX Warsztat Samochodowy</title>
-    <meta name="description" content="Warsztat samochodowy we Wrocławiu (Ołtaszyn/Krzyki). Blacharstwo, lakiernictwo i mechanika pojazdowa. Likwidacja szkód komunikacyjnych OC i AC. Auto holowanie.">
-    <meta name="keywords" content="watsztat samochodowy, blacharstwo, lakiernictwo, mechanika, ołtaszyn, wrocław, holowanie, likwidacja szkody, oc i ac, wymiana oleju, rozrząd, cheack engine, naprawa pojazdów, mechanik">
+    <meta name="description" content="Warsztat samochodowy w Mirkowie. Blacharstwo, lakiernictwo i mechanika pojazdowa. Likwidacja szkód komunikacyjnych OC i AC. Auto holowanie.">
+    <meta name="keywords" content="watsztat samochodowy, blacharstwo, lakiernictwo, mechanika, mirków, holowanie, likwidacja szkody, oc i ac, wymiana oleju, rozrząd, cheack engine, naprawa pojazdów, mechanik">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="icon" type="images/png" href="images/icon.png">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
@@ -54,7 +55,7 @@ mail($to, $subject, $message, $headers);
     </header>
     <section class="banner-area">
       <div class="slide-right">
-        <svg class="intro" viewbox="0 0 200 100">
+        <svg class="intro" viewbox="0 0 200 100" focusable="false">
           <text text-anchor="start" x="10" y="30" class="text text-stroke" clip-path="url(#text1)">Warsztat</text>
           <text text-anchor="start" x="10" y="60" class="text text-stroke" clip-path="url(#text2)">Dla</text>
           <text text-anchor="start" x="10" y="90" class="text text-stroke" clip-path="url(#text3)">Ciebie</text>
@@ -105,7 +106,7 @@ mail($to, $subject, $message, $headers);
                   <div class="icon">
                     <i class="fa fa-map-marker-alt"></i>
                   </div>
-                  <p>ul. Gałczyńskiego 14,<br>52-214 Wrocław</p>
+                  <p>ul. Rzemieślnicza 6,<br>55-095 Mirków</p>
                 </li>
                 <li>
                   <div class="icon">
@@ -165,8 +166,8 @@ mail($to, $subject, $message, $headers);
             <div class="single-footer-widget footer-address">
               <h6>Adres</h6>
               <p><span>AUTO KOMPLEX</span></p>
-              <p>ul. Gałczyńskiego 14</p>
-              <p>52-214 Wrocław</p>
+              <p>ul. Rzemieślnicza 6</p>
+              <p>55-095 Mirków</p>
               <p>woj. dolnośląskie</p>
               <p>Polska</p>
             </div>
